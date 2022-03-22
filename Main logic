@@ -1,0 +1,16 @@
+print(str("Hello User" + "\n" + "Input Name Please"))
+
+a= input()
+if a== "User":
+    print("Acess Granted")
+else:
+    print("User Denied" + "\n" + "Data Destruction in:")
+    print("5")
+    print("4")
+    print("3")
+    print("2")
+    print("1")
+    print("BOOM")
+while a!= "User":
+    print("Purge Completed")
+    break
